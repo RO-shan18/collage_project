@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="/CSS/tour1_detail.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tour Booking</h1>
+        <div class="booking-info">
+            <h2>Available Seats</h2>
+            <p id="available-seats">25</p>
+            <h2>Minimum Seat(s) to book</h2>
+            <p>1</p>
+            <h2>Select No. of Seat(s)</h2>
+            <select id="num-seats">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+            </select>
+            <h2>Passenger Selection</h2>
+            <div class="passenger-types">
+                <label for="adults">Adult(s):</label>
+                <input type="number" id="adults" min="0" value="1">
+                <label for="children">Child(s):</label>
+                <input type="number" id="children" min="0" value="0">
+                <label for="seniors">Senior Citizen(s):</label>
+                <input type="number" id="seniors" min="0" value="0">
+            </div>
+            <h2>Charges Per Seat (Incl. GST)</h2>
+            <p>Adult: ₹ <span id="adult-price">34610</span></p>
+            <p>Child: ₹ <span id="child-price">25420</span></p>
+            <p>Senior Citizen: ₹ <span id="senior-price">32360</span></p>
+            <button id="calculate-button">Calculate Price</button>
+            <div id="error-message">
+                <span class="close-button">&times;</span> <p></p> </div>
+            <div id="total-price">
+                <h2>Total Amount to be paid</h2>
+                <p>₹ <span id="total-amount">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="/javascript/detail_plan.js"></script>
+</body>
+</html>

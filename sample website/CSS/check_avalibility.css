@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.tour-info,
+.tour-details {
+  flex: 1 1 50%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tour-info h2 {
+  margin-bottom: 15px;
+}
+
+.tour-details h2 {
+  margin-bottom: 10px;
+}
+
+.date-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date-info span:first-child {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.check-availability {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

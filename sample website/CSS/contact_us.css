@@ -1,0 +1,47 @@
+.conat {
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  flex-wrap: wrap;
+}
+
+.conat p {
+  padding: 30px 62px;
+  border: 2px solid #efe3e3;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.conat p:hover {
+  background-color: rgb(82, 82, 238);
+  color: white;
+  transition: all 0.4s;
+}
+
+.conat2 {
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  flex-wrap: wrap;
+}
+
+.conat2 p{
+  padding: 30px 62px;
+  border: 2px solid #efe3e3;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.conat2 p:hover {
+    background-color: rgb(82, 82, 238);
+    color: white;
+    transition: all 0.4s;
+  }
+
+  .conat2 p b{
+    font-size: 25px;
+    font-weight: 700;
+  }
